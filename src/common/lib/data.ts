@@ -37,38 +37,22 @@ export const links = [
     id: 'contact',
   },
 ] as const;
-
 export const experiencesData = [
   {
-    title: 'Trustsoft s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'Freelance Web Developer',
+    location: 'Remote',
     description:
-      'Front-end Developer. Providing services in the field of information technology services, including administration servers, cloud services, information systems and software development.',
+      'Worked as a freelance web developer for clients worldwide. Delivered responsive websites, ecommerce platforms, and portfolio sites using the MERN stack and Tailwind CSS.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
+    date: 'Jan 2023 - Present',
   },
   {
-    title: 'Granton s.r.o.',
-    location: 'Prague, Czechia',
+    title: 'Data Entry Specialist',
+    location: 'Remote',
     description:
-      'Front-end Developer. Delivering flawless UI/UX, Frontend Workflow, Architecture & App Development.',
+      'Performed accurate data entry, record management, and administrative support tasks. Ensured high attention to detail and timely completion of client projects.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Oct 2024 - Present',
-  },
-  {
-    title: 'WhirrCrew s.r.o.',
-    location: 'Prague, Czechia',
-    description:
-      'Front-end Developer. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
-  },
-  {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. The faculty of Cyber Security and Software Engineering.`,
-    icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Jun 2024',
+    date: 'Jan 2022 - Dec 2023',
   },
 ] as const;
 
@@ -81,37 +65,14 @@ export const images = {
 };
 
 export const projectsData = [
-  {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, Due Diligence & more.`,
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'SCRUM Methodology'],
-    imageUrl: auditMasterImg,
-    link: 'https://auditmaster.ai/',
-  },
-  {
-    title: 'Demo Automation of accounting documents processing',
-    description:
-      'Upload any receipt or invoice (even a crumpled one from your pocket) and watch our AI accurately extract its data.',
-    tags: ['TypeScript', 'React', 'Docker', 'Next.js', 'GraphQL', 'Tailwind'],
-    imageUrl: accountingImg,
-    link: 'https://demo.grantonai.cz/',
-  },
-  {
-    title: 'FileDrive',
-    description:
-      'A platform for decentralized file storage with robust user management.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
-    ],
-    imageUrl: filedriveImg,
-    link: 'https://github.com/bbyc4kes/file-drive',
-  },
+ {
+  title: 'Mern stack',
+  description: `Ecommerce web application built with the MERN stack and Tailwind CSS. Includes product catalog, shopping cart, user authentication, order management, admin product CRUD, and a responsive, mobile-first UI.`,
+  tags: ['MERN', 'Tailwind CSS', 'React', 'Node.js', 'Express', 'MongoDB'],
+      imageUrl: auditMasterImg,
+  link: 'https://shopnowf.vercel.app',
+},
+
   {
     title: 'Portfolio',
     description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me.`,
@@ -125,26 +86,24 @@ export const projectsData = [
       'Tailwind',
     ],
     imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
+    link: 'https://github.com/lateef15467/portfolio',
   },
+ {
+  title: 'Hotel Management System',
+  description: `A complete hotel management system that streamlines room booking, guest check-in/check-out, staff management, billing, and reporting. Provides an intuitive admin dashboard and a smooth booking experience for guests.`,
+  tags: [
+    
+    'HTML',
+    'CSS',
+    'JAVASCRIPT',
+    'BOOTSTRAP',
+  ],
+  imageUrl:reactfoodImg  ,
+  link: 'https://showk-view-hotal.netlify.app',
+}
 
-  {
-    title: 'Surge',
-    description:
-      'Service that allows users to build and manage their own websites with integrated payment processing.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
-      'Tailwind',
-    ],
-    imageUrl: surgeImg,
-    link: 'https://github.com/bbyc4kes/surge',
-  },
+
+ 
 ] as const;
 
 export const skillsData = [
@@ -155,24 +114,12 @@ export const skillsData = [
   ['Node.js', '/svgs/node-js.svg'],
   ['Express', '/svgs/express-original.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
-  ['Framer', '/svgs/framer.svg'],
-  ['Shadcn', '/svgs/shadcnui.svg'],
-  ['Headless', '/svgs/brand-headlessui.svg'],
-  ['Redux', '/svgs/redux-original.svg'],
-  ['Prisma', '/svgs/file-type-light-prisma.svg'],
   ['MongoDB', '/svgs/mongodb-original.svg'],
-  ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
-  ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
-  ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
   ['Cloudinary', '/svgs/cloudinary.svg'],
-  ['Golang', '/svgs/golang.svg'],
-  ['Docker', '/svgs/Docker.svg'],
-  ['Clerk', '/svgs/clerk.svg'],
   ['Axios', '/svgs/axios.svg'],
   ['HTML', '/svgs/file-type-html.svg'],
   ['CSS', '/svgs/file-type-css.svg'],
-  ['Sass', '/svgs/Sass.svg'],
   ['Git', '/svgs/git.svg'],
   ['GitHub', '/svgs/github.svg'],
   ['', '/svgs/etc.svg'],
