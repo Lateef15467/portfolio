@@ -2,10 +2,6 @@
 
 ## Features
 
-- **Animations**: Beautiful animations powered by [Framer Motion](https://www.framer.com/motion/).
-- **Responsive Design**: Built with [Tailwind CSS](https://tailwindcss.com/) for a fully responsive layout.
-- **Easy Navigation**: Smooth scroll and intuitive navigation buttons.
-
 ## Getting Started
 
 Follow these instructions to set up the project locally.
@@ -37,11 +33,11 @@ Follow these instructions to set up the project locally.
 ### Running the Project
 
 Start the development server:
-`  npm run dev
- `
+` npm run dev
+`
 or
-`  yarn dev
- `
+` yarn dev
+`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
